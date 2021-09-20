@@ -1,0 +1,36 @@
+:root {
+ background-color: white;
+ color: #2e4bc6;
+}
+
+/* BLOQUES */
+.cards {
+ background-color: #e3f2ff;
+ border: 1px solid #d4d4d4;
+ display: flex;
+}
+
+/* ELEMENTOS */
+.cards__card-noticia {
+ height: 50px;
+ width: 250px;
+ border: 2px solid #ff4d20;
+}
+
+.cards__card-anuncio {
+ height: 100px;
+ width: 250px;
+ border: 2px solid #9849ff;
+}
+
+.cards__card-comentario {
+ height: 200px;
+ width: 250px;
+ border: 2px solid #83ff5e;
+}
+
+/* MODIFICADORES */
+.cards__card-comentario--resaltado {
+ color: white;
+ background-color: #2e4bc6;
+}
